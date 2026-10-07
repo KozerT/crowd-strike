@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-red: red;
+  --color-grey: #d3d8e0;
+  --color-dark: #020202;
+  --color-beige: #f5f4ed;
+
+  --text-base: 1rem; /* 16px*/
+  --text-large: 3rem;
+
+  --tracking-large: 5%;
+}
+
+html {
+  height: 100dvh;
+}
+
+body {
+  min-height: 100%;
+}
+
+.header {
+  border-bottom: 4px solid var(--color-beige);
+  background-color: var(--color-dark);
+}
+
+.header-title {
+  color: var(--color-beige);
+  font-size: var(--text-large);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: var(--tracking-large);
+  text-transform: uppercase;
+  text-align: center;
+}
